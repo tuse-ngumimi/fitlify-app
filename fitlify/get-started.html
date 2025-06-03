@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="routine.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">Fitlify</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="routine-popup">
+
+    <h2>Create Your Routine</h2><br>
+
+    <form id="routine-form">
+
+      <label for="level">Select Your Level:</label>
+      <select id="level" required>
+        <option value="">Choose...</option>
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+      </select>
+      <br>
+
+      <p>Select Muscle Group(s):</p><br>
+      <div class="checkboxes">
+        <label><input type="checkbox" value="chest"> Chest</label><br>
+        <label><input type="checkbox" value="back"> Back</label><br>
+        <label><input type="checkbox" value="legs"> Legs</label><br>
+        <label><input type="checkbox" value="arms"> Arms</label><br>
+        <label><input type="checkbox" value="core"> Core</label><br>
+        <label><input type="checkbox" value="shoulders"> Shoulders</label><br>
+      </div>
+
+      <div>
+        <button class="submit" type="submit">Generate Routine</button>
+      </div>
+    </form>
+
+    <!-- <button id="close-popup" href="index.html">Close</button> -->
+
+  </div>
+</body>
+
+</html>

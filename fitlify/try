@@ -1,0 +1,35 @@
+.popup-overlay {
+  display: none; 
+  position: fixed; 
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  justify-content: center; 
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 0 20px #b15622;
+}
+
+select, input[type="checkbox"], button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: #b15622;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ff914d;
+}
